@@ -29,12 +29,22 @@
 
 .deel-widget {
     box-sizing: border-box;
-    background: red;
     padding: 10px;
     height: 200px;
 }
 
 .deel-widget__img {
     float: left;
+}
+
+.deel-widget__title
+{
+   text-transform:uppercase;
+}
+
+.deel-widget__subtitle
+{
+    color: black;
+    line-height: 1em;
 }
 
