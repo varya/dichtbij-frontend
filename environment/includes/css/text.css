@@ -346,18 +346,6 @@ iframe,
         width: 190px;
 }
 
-.layout-table {
-    width: 100%;
-}
-
-.layout-table__cell_50 {
-    width: 50%;
-}
-
-.deel-widget__img {
-    float: left;
-}
-
 #companyprofilemessage {
     display: none;
     background-color: #E8E8E8;
