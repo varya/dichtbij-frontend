@@ -6,12 +6,32 @@
     vertical-align: top;
 }
 
-.layout-table__cell_50 {
+.layout-table__cell_left,
+.layout-table__cell_right
+{
     width: 50%;
 }
 
+.layout-table__cell-i
+{
+    margin: 0;
+}
+
+.layout-table__cell_left .layout-table__cell-i
+{
+    margin-right: 10px;
+}
+
+.layout-table__cell_right .layout-table__cell-i
+{
+    margin-left: 10px;
+}
+
 .deel-widget {
+    box-sizing: border-box;
     background: red;
+    padding: 10px;
+    height: 200px;
 }
 
 .deel-widget__img {
