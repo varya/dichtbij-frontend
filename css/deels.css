@@ -31,6 +31,12 @@
     box-sizing: border-box;
     padding: 10px;
     height: 200px;
+    border-radius: 5px;
+}
+
+.deel-widget_image
+{
+    border-radius: 5px;
 }
 
 .deel-widget__img {
@@ -48,3 +54,30 @@
     line-height: 1em;
 }
 
+.widget-deel__meer
+{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #8fb009;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#c1d83a),to(#8fb009));
+    background-image: -webkit-linear-gradient(top,#c1d83a 0,#8fb009 100%);
+    background-image: -moz-linear-gradient(top,#c1d83a 0,#8fb009 100%);
+    background-image: -ms-linear-gradient(top,#c1d83a 0,#8fb009 100%);
+    background-image: linear-gradient(top,#c1d83a 0,#8fb009 100%);
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    *zoom: 1;
+    color: #000;
+    text-decoration: none;
+    text-shadow: 0 1px 0px rgba(255,255,255, .3);
+    border-bottom: 1px solid #667b11;
+    background-color: #8fb009;
+    float: right;
+}
+.widget-deel__meer:hover
+{
+    color: #000;
+    background-image: none;
+    background-color: #c1d83a;
+}
