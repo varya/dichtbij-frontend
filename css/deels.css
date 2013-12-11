@@ -19,12 +19,12 @@
 
 .layout-table__cell_left .layout-table__cell-i
 {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .layout-table__cell_right .layout-table__cell-i
 {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .deel-widget {
@@ -74,6 +74,7 @@
     border-bottom: 1px solid #667b11;
     background-color: #8fb009;
     float: right;
+    font-weight: bold;
 }
 .widget-deel__meer:hover
 {
