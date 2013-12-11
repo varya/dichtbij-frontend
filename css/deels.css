@@ -30,8 +30,14 @@
 .deel-widget {
     box-sizing: border-box;
     padding: 10px;
-    height: 200px;
     border-radius: 5px;
+    background: #f3f3f3;
+    border: 1px dotted #c7c7c7;
+}
+
+.deel-widget_top
+{
+    height: 200px;
 }
 
 .deel-widget_image
@@ -54,7 +60,7 @@
     line-height: 1em;
 }
 
-.widget-deel__meer
+.deel-widget__meer
 {
     display: inline-block;
     padding: 5px 10px;
@@ -95,7 +101,6 @@
     overflow: hidden;
     vertical-align: top;
     width: 324px;
-    background: red;
     min-height: 200px;
     margin-right: 10px;
     margin-top:15px;
