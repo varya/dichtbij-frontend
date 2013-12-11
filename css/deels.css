@@ -82,3 +82,25 @@
     background-image: none;
     background-color: #c1d83a;
 }
+
+.deels-list
+{
+    text-align: justify;
+    list-style: none;
+}
+
+.deels-list__item
+{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    width: 324px;
+    background: red;
+    min-height: 200px;
+    margin-right: 10px;
+    margin-top:15px;
+}
+.deels-list__item:nth-child(3n)
+{
+    margin-right: 0;
+}
