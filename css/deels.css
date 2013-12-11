@@ -1,5 +1,6 @@
 .layout-table {
     width: 100%;
+    margin-top: 15px;
 }
 
 .layout-table__cell {
@@ -33,6 +34,21 @@
     border-radius: 5px;
     background: #f3f3f3;
     border: 1px dotted #c7c7c7;
+    position: relative;
+    overflow: visible;
+}
+
+.deel-widget:before
+{
+    content: "";
+    right: 10px;
+    top: -15px;
+    position: absolute;
+    display: block;
+    width: 41px;
+    height: 68px;
+    background-image:url(../img/medal.png);
+    background-repeat: no-repeat;
 }
 
 .deel-widget_top
@@ -49,7 +65,7 @@
     float: left;
 }
 
-.deel-widget__title
+.deel-widget_top .deel-widget__title
 {
    text-transform:uppercase;
 }
@@ -93,17 +109,18 @@
 {
     text-align: justify;
     list-style: none;
+    margin-top: 5px;
 }
 
 .deels-list__item
 {
+    text-align: left;
     display: inline-block;
-    overflow: hidden;
     vertical-align: top;
     width: 324px;
     min-height: 200px;
     margin-right: 10px;
-    margin-top:15px;
+    margin-top:20px;
 }
 .deels-list__item:nth-child(3n)
 {
