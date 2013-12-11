@@ -2,8 +2,16 @@
     width: 100%;
 }
 
+.layout-table__cell {
+    vertical-align: top;
+}
+
 .layout-table__cell_50 {
     width: 50%;
+}
+
+.deel-widget {
+    background: red;
 }
 
 .deel-widget__img {
