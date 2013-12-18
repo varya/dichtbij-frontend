@@ -175,5 +175,31 @@
 .deel-container
 {
     margin-top: 20px;
-    min-height: 100px;
+    min-height: 150px;
+    padding: 30px;
+}
+
+.deel-description
+{
+    margin: 0 0 20px 0;
+    padding: 0;
+    min-height: 150px;
+}
+
+.deel-pic
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.deel-hr
+{
+    border-top: 1px dotted #c7c7c7;
+    width: 100%;
+    clear: both;
+    margin: 20px 0;
+}
+
+.deel-provider
+{
 }
