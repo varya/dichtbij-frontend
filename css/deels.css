@@ -202,10 +202,28 @@
 
 .deel-provider
 {
+    min-height:250px;
 }
 
 .deel-provider__map
 {
     width: 350px;
     height: 250px;
+    float:left;
+    margin-right: 20px;
+}
+
+.deel-provider__address
+{
+    margin-top: 20px;
+}
+
+.deel-provider__address-item
+{
+    font-weight: bold;
+}
+
+.deel-provider__address-item_gap
+{
+    margin-top: 20px;
 }
