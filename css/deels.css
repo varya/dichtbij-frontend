@@ -203,3 +203,9 @@
 .deel-provider
 {
 }
+
+.deel-provider__map
+{
+    width: 350px;
+    height: 250px;
+}
