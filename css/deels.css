@@ -202,6 +202,19 @@
 {
     margin-right: 0;
 }
+.deels-list__item:first-child + li + li + li + li + li
+{
+    margin-right: 0;
+}
+.deels-list__item:first-child + li + li + li + li + li + li + li + li
+{
+    margin-right: 0;
+}
+.deels-list__item:first-child + li + li + li + li + li + li + li + li + li + li + li
+{
+    margin-right: 0;
+}
+
 
 .deels-list__title {
     height:45px;
