@@ -30,6 +30,7 @@
 
 .deel-widget {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
     background: #f3f3f3;
@@ -76,16 +77,29 @@
 
 .deel-widget__img {
     float: left;
+    overflow: hidden;
+    max-width: 120px;
+    max-height: 180px;
+    margin-right: 10px;
 }
 
 .deel-widget__logo
 {
     display: inline-block;
-    width: 176px;
+    width: 174px;
     background-color: #FFF;
     text-align: center;
     padding: 2px 0;
     vertical-align:middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    overflow: hidden;
+    max-height: 38px;
+    min-height: 38px;
+}
+
+.deel-widget__logo img {
+    height:34px;
 }
 
 .deel-widget__title
@@ -95,13 +109,16 @@
 
 .deel-widget_top .deel-widget__title
 {
-   text-transform:uppercase;
-   margin-bottom: 0.25em;
+    text-transform:uppercase;
+    margin-bottom: 0.25em;
+    max-height: 2.5em;
+    max-width: 300px;
+    overflow: hidden;
 }
 
 .deel-widget__subtitle
 {
-    color: black;
+    /*color: black;*/
     line-height: 1em;
     margin-top: 0.5em;
     margin-bottom: 0.25em;
@@ -111,6 +128,10 @@
 .deel-widget_top .deel-widget__subtitle
 {
     margin-bottom: 0.5em;
+}
+
+.deel-widget_top .lead_text {
+    margin-top: 20px;
 }
 
 .deel-widget__button,
@@ -167,10 +188,27 @@
     min-height: 200px;
     margin-right: 10px;
     margin-top:20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
+
 .deels-list__item:nth-child(3n)
 {
     margin-right: 0;
+}
+
+.deels-list__title {
+    height:45px;
+    margin-bottom:0.5em;
+}
+
+.deels-list__image {
+    height:100px;
+    margin-bottom:0.5em;
+}
+
+.deels-list__image img {
+    height:100%;
 }
 
 .deel-container
@@ -185,6 +223,16 @@
     margin: 0 0 20px 0;
     padding: 0;
     min-height: 150px;
+}
+
+.deel-description__text
+{
+    margin-left: 170px;
+}
+
+.deel-description__promotext
+{
+    margin-left: 170px;
 }
 
 .deel-pic
@@ -227,4 +275,10 @@
 .deel-provider__address-item_gap
 {
     margin-top: 20px;
+}
+
+.btnMetadata {
+    width: 100px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
