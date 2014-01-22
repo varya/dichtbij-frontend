@@ -197,6 +197,12 @@
     margin-right: 0;
 }
 
+/* for IE8*/
+.deels-list__item:first-child + li + li
+{
+    margin-right: 0;
+}
+
 .deels-list__title {
     height:45px;
     margin-bottom:0.5em;
